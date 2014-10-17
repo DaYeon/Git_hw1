@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>* Survey *</title>
+		<link href="stylesheets/git_hw1_3rdpage.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+		<button onclick="location.replace('git_hw1_mainpage.html');">Back</button>
+		</div>
+		<br>
+		<h2>* 김다연에 관한 설문조사 *</h2>
+		
+		<form action="git_hw1_3rdpage.html" method=POST>			
+			<table>
+				<tr>
+					<th>성별</th>
+						<td>
+						<input type="radio" name="sex" value="m"/>남
+						<input type="radio" name="sex" value="f"/>여
+					</td>
+				</tr>
+				<tr>
+					<th>나이</th>
+					<td>
+						<select>
+							<option value="teenage">10대</option>
+							<option value="twenties">20대</option>
+							<option value="thirties">30대</option>
+							<option value="forties">40대</option>
+							<option value="fifties">50대</option>
+							<option value="over_sixties">60대 이상</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br><br>
+		<form action="index3.html" method=POST>
+			<table>
+				<tr>
+					<th class="purple1">김다연을 처음 알게 된 곳은?</th>
+					<td>
+							<input type="radio" name="where" value="e"/>초등학교
+							<input type="radio" name="where" value="m"/>중학교
+							<input type="radio" name="where" value="h"/>고등학교
+							<input type="radio" name="where" value="u"/>대학교<br>
+							<input type="radio" name="where" value="v"/>봉사활동
+							<input type="radio" name="where" value="a"/>학원
+							<input type="radio" name="where" value="etc"/>기타<input type="text"/>
+					</td>
+				</tr>
+				<tr>
+					<th class="purple2">김다연을 알게 된지 얼마나 되었습니까?</th>
+					<td>
+					<select>
+							<option value="one_month">한 달</option>
+							<option value="three_month">3개월</option>
+							<option value="six_month">6개월</option>
+							<option value="one_year">1년</option>
+							<option value="two_years">2년</option>
+							<option value="over_three_years">3년 이상</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<th class="purple3">김다연과 얼마나 자주연락하고 있습니까?</th>
+					<td>
+					<select>
+							<option value="everyday">매일</option>
+							<option value="once_a_week">일주일에 한번</option>
+							<option value="once_a_month">한달에 한번</option>
+							<option value="once_3_months">3개월에 한번</option>
+							<option value="once_6_months">6개월에 한번</option>
+							<option value="once_a_year">1년에 한번</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<th class="purple4">김다연의 성격은 어떻다고 생각하십니까?<br>(중복선택 가능)</th>
+					<td>
+						<input type="checkbox" name="positive"/>긍정적
+						<input type="checkbox" name="active"/>활발하다
+						<input type="checkbox" name="blue"/>우울하다
+						<input type="checkbox" name="timid"/>소심하다<br>
+						<input type="checkbox" name="irresolute"/>우유부단하다
+						<input type="checkbox" name="arrogant"/>거만하다
+						<input type="checkbox" name="bad"/>별로다
+					</td>
+				</tr>
+				<tr>
+					<th class="purple5">김다연의 장단점은 무엇이라고 생각하십니까?</th>
+					<td>
+						장점:<input type="text" name="good" size="10"/> 단점:<input type="text" name="bad" size="10"/>
+					</td>
+				</tr>
+				<tr>
+					<th class="purple6">김다연에게 가장 큰 강점은 무엇이라고 생각하십니까?</th>
+					<td>
+						<input type="radio" name="strength" value="f"/>얼굴
+						<input type="radio" name="strength" value="m"/>멘탈
+						<input type="radio" name="strength" value="b"/>체격
+						<input type="radio" name="strength" value="p1"/>성격
+						<input type="radio" name="strength" value="k"/>지성
+						<input type="radio" name="strength" value="p2"/>체력
+					</td>
+				</tr>	
+			</table>	
+			<br><h4>설문에 응해주셔서 감사합니다! :)</h4><br>
+		<div class="wrapper">
+			<input type="button" name="submit" value="제출"/>
+		</div>
+		</form>
+	</body>
+</html>
