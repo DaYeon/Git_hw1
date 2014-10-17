@@ -1,0 +1,31 @@
+html{color:#000;
+		background:#fff;
+		padding:20px 0;
+}
+
+#header {
+	width:500px; height:250px; background-color:#D1B2FF;
+	border-radius: 250px 250px 0px 0px;
+}
+
+#header_top {float:left; margin: 40px;}
+
+#wrap {width:500px;
+			margin:0 auto;
+			background-color:#fff
+}
+
+#navbar {width:600px; height:30px;}
+#navbar ul {margin:0;padding:0; list-style: none;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+	color:#000; background-color:#fff;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0px 21.5px; 
+	font: bold 12px/30px "맑은 고딕";
+	text-decoration:none;
+	margin-right:5px;
+}
+#navbar ul li a:hover {color:#fff; background-color:#D1B2FF;}
